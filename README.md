@@ -17,15 +17,15 @@ The modules follow the **C++98 standard** under deliberately strict rules:
 | Module | Topic | Exercises |
 |--------|-------|-----------|
 | [cpp00](cpp_module_00) | Namespaces, classes, member functions, streams, initialization lists, `static`, `const` | A megaphone, a phone book that keeps the 8 most recent contacts and prints a formatted table with `iomanip`, and an `Account` class rebuilt from its header and a log file |
-| [cpp01](cpp01) | Memory allocation, pointers to members, references, `switch` | Zombies on the stack vs. the heap, pointers vs. references, a `sed`-like search-and-replace with file streams, and a logger that dispatches through an array of pointers to member functions |
-| [cpp02](cpp02) | Ad-hoc polymorphism, operator overloading, Orthodox Canonical Form | A fixed-point number class with arithmetic, comparison and increment operators, then used to test whether a point lies inside a triangle |
-| [cpp03](cpp03) | Inheritance | A `ClapTrap` robot hierarchy showing construction and destruction chaining, ending with the diamond problem and virtual inheritance |
-| [cpp04](cpp04) | Subtype polymorphism, abstract classes, interfaces | Virtual functions with an `Animal` hierarchy (and what goes wrong without `virtual`), deep copies of owned resources, abstract base classes, and an interface-based materia and character system |
-| [cpp05](cpp05) | Exceptions | Bureaucrats with grade checks, forms that must be signed and executed, custom exception classes, and an `Intern` that creates forms by name |
-| [cpp06](cpp06) | C++ casts | A scalar converter that detects a literal's type and converts it to `char`, `int`, `float` and `double` (including `inf` and `nan`), pointer serialization with `reinterpret_cast`, and runtime type identification with `dynamic_cast` |
-| [cpp07](cpp07) | Templates | Generic `swap`, `min` and `max`, an `iter` function that works on const and non-const arrays, and an `Array` class template with deep copying and bounds-checked access |
-| [cpp08](cpp08) | STL containers, iterators, algorithms | A generic `easyfind`, a `Span` class tested with tens of thousands of numbers and range insertion, and `MutantStack`, an iterable `std::stack` |
-| [cpp09](cpp09) | STL in practice | A Bitcoin price lookup that validates input against a CSV database, a Reverse Polish Notation calculator, and the Ford-Johnson merge-insertion sort implemented on two different containers with a timing comparison |
+| [cpp01](cpp_module_01) | Memory allocation, pointers to members, references, `switch` | Zombies on the stack vs. the heap, pointers vs. references, a `sed`-like search-and-replace with file streams, and a logger that dispatches through an array of pointers to member functions |
+| [cpp02](cpp_module_02) | Ad-hoc polymorphism, operator overloading, Orthodox Canonical Form | A fixed-point number class with arithmetic, comparison and increment operators |
+| [cpp03](cpp_module_03) | Inheritance | A `ClapTrap` robot hierarchy showing construction and destruction chaining, ending with the diamond problem and virtual inheritance |
+| [cpp04](cpp_module_04) | Subtype polymorphism, abstract classes, interfaces | Virtual functions with an `Animal` hierarchy (and what goes wrong without `virtual`), deep copies of owned resources, abstract base classes, and an interface-based materia and character system |
+| [cpp05](cpp_module_05) | Exceptions | Bureaucrats with grade checks, forms that must be signed and executed, custom exception classes, and an `Intern` that creates forms by name |
+| [cpp06](cpp_module_06) | C++ casts | A scalar converter that detects a literal's type and converts it to `char`, `int`, `float` and `double` (including `inf` and `nan`), pointer serialization with `reinterpret_cast`, and runtime type identification with `dynamic_cast` |
+| [cpp07](cpp_module_07) | Templates | Generic `swap`, `min` and `max`, an `iter` function that works on const and non-const arrays, and an `Array` class template with deep copying and bounds-checked access |
+| [cpp08](cpp_module_08) | STL containers, iterators, algorithms | A generic `easyfind`, a `Span` class tested with tens of thousands of numbers and range insertion, and `MutantStack`, an iterable `std::stack` |
+| [cpp09](cpp_module_09) | STL in practice | A Bitcoin price lookup that validates input against a CSV database, a Reverse Polish Notation calculator, and the Ford-Johnson merge-insertion sort implemented on two different containers with a timing comparison |
 
 ### What this covers
 
