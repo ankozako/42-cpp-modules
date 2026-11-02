@@ -16,7 +16,7 @@ The modules follow the **C++98 standard** under deliberately strict rules:
 
 | Module | Topic | Exercises |
 |--------|-------|-----------|
-| [cpp00](cpp00) | Namespaces, classes, member functions, streams, initialization lists, `static`, `const` | A megaphone, a phone book that keeps the 8 most recent contacts and prints a formatted table with `iomanip`, and an `Account` class rebuilt from its header and a log file |
+| [cpp00](cpp_module_00) | Namespaces, classes, member functions, streams, initialization lists, `static`, `const` | A megaphone, a phone book that keeps the 8 most recent contacts and prints a formatted table with `iomanip`, and an `Account` class rebuilt from its header and a log file |
 | [cpp01](cpp01) | Memory allocation, pointers to members, references, `switch` | Zombies on the stack vs. the heap, pointers vs. references, a `sed`-like search-and-replace with file streams, and a logger that dispatches through an array of pointers to member functions |
 | [cpp02](cpp02) | Ad-hoc polymorphism, operator overloading, Orthodox Canonical Form | A fixed-point number class with arithmetic, comparison and increment operators, then used to test whether a point lies inside a triangle |
 | [cpp03](cpp03) | Inheritance | A `ClapTrap` robot hierarchy showing construction and destruction chaining, ending with the diamond problem and virtual inheritance |
